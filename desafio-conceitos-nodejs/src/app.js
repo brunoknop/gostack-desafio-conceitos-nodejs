@@ -1,7 +1,6 @@
 const express = require("express");
 const cors = require("cors");
 const { v4: uuid, validate: isUuid, v4, validate } = require('uuid');
-//const { json, text } = require("express");
 
 const app = express();
 
@@ -12,11 +11,9 @@ const repositories = [];
 
 function CheckValidId(request, response, next) {
   const { id } = request.params;
-  const repositorieIndex = repositories.findIndex(repo => repo.id === id);
-
   if (!validate(id))
     return response.status(400).json({ error: "ID is not valid!" });
-  else if (repositorieIndex < 0)
+  else if (repositories.findIndex(repo => repo.id === id) < 0)
     return response.status(400).json({ error: "This ID does not exist!" });
 
   return next();
