@@ -1,2 +1,2 @@
 # rocketseat-gostack-desafios
- Repositório onde irei postar toda a minha evolução no gostack
+ Repositório do primeiro desafio do Gostack da Rocketseat.
