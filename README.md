@@ -1,9 +1,9 @@
-# Primeiro desafio Gostack
-## Desafio Conceitos nodejs
+### Primeiro desafio Gostack
+# Desafio Conceitos nodejs
  
  
  --------------------------------------------------------
- # 🚀 Sobre o desasfio
+ ## 🚀 Sobre o desasfio
  Para a realização deste teste eu tive que criar uma aplicação que permitisse armazenar repositórios do seu portfólio.
  Dentro dessa primissa, a aplicação deveria permitir a criação, listagem, atualização e remoção dos repositórios, e além disso permitir que os repositórios possam receber "likes".
 
